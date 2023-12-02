@@ -59,7 +59,7 @@ include('navbar.php')
                                                     <a href="student-edit.php?id=<?= $row->id; ?>" class="btn btn-success">Edit</a>
                                                 </td>
                                                 <td>
-                                                    <form action="student-code.php" method="POST">
+                                                    <form action="code.php" method="POST">
                                                         <button type="submit" name="delete_student" value="<?=$row->id;?>" class="btn btn-danger">Delete</button>
                                                     </form>
                                                 </td>
